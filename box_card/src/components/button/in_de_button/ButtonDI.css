@@ -1,0 +1,37 @@
+.button_DI {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.button_DI .amount {
+  display: flex;
+  width: 45px;
+  height: 35px;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ececec;
+}
+
+.button_DI button {
+  width: 35px;
+  height: 35px;
+  background-color: none;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+
+.button_DI button :hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
+}
+
+.button_DI button svg {
+  color: #909090;
+}
+
+.button_DI button:hover svg {
+  color: #4f4f4f;
+}
