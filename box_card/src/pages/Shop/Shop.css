@@ -1,0 +1,11 @@
+.listCard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Vì các thẻ hiện tại được bọc thẻ Link = a nên các thẻ p bên trong sẽ có dấu gạch chân bên dưới*/
+.listCard a {
+  text-decoration: none;
+}

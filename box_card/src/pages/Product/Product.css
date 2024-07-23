@@ -1,0 +1,26 @@
+.product-detail {
+  display: flex;
+  background-color: #e9e9e9;
+}
+
+/* .detail-left,
+.detail-right {
+  flex: 1;
+} */
+
+.detail-left {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.detail-left img {
+  content: fit-content;
+}
+
+.product-detail .product-left .product-detail-img {
+  margin: 5% 30px;
+}
+
+.product-detail-title {
+  font-size: 38px;
+}

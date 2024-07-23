@@ -38,7 +38,30 @@
 } */
 .App {
   display: flex;
-  align-items:center;
-  justify-content: center;
   height: 100vh;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  overflow: auto;
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.App {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* css grid-layout */
+.container {
+  width: 1280px;
+  margin: auto;
+  margin-top: 0;
 }
