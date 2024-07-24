@@ -4,8 +4,13 @@ import BannerHome from "../../assets/images/BannerHome.webp";
 
 function Home() {
   return (
-    <div className="banner">
-      <img src={BannerHome} alt="banner" />
+    <div className="home-container">
+      <div className="banner">
+        <img src={BannerHome} alt="banner" />
+      </div>
+      <div className="home-content">
+          
+      </div>
     </div>
   );
 }

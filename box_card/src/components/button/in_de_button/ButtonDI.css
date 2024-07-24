@@ -2,6 +2,7 @@
   display: flex;
   width: 120px;
   justify-content: space-between;
+  /* margin-bottom: 10px; */
 }
 
 .button_DI .amount {

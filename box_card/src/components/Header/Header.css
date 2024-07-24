@@ -1,12 +1,10 @@
 .navbar {
-  background-color: #333;
+  background-color: #181717;
   padding: 25px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.5;
-  position: relative; /* Hoặc absolute hoặc fixed */
-  z-index: 10;
+  /* opacity: 0.5; */
 }
 
 .navbar ul {

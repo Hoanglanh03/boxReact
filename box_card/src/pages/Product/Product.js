@@ -41,9 +41,9 @@ export default function DetailProduct() {
       </div>
       <div className="detail-right">
         <p className="product-detail-title">{product.title}</p>
-        <p className="product-detail-price">${product.price}</p>
+        <p className="product-detail-price">{product.price} $</p>
         <p className="product-detail-description">{product.description}</p>
-        <ButtonDI />
+        <ButtonDI className="ButtonDI" />
         <div className="buy-add-save">
           <button>Buy Now</button>
           <button>Add to cart</button>
